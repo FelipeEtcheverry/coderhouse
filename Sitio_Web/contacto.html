@@ -1,0 +1,94 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de contacto</title>
+	<body background="c:\Users\felir\Desktop\buda4.jpg"></body>
+   </head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<body background="c:\Users\felir\Desktop\buda4.jpg"></body>
+
+<title>Carrito de compras</title>
+</head>
+<body>
+    <h1 align="center">BUSHRA TIENDA DE ROPA</h1>
+
+
+
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+    <a class="navbar-brand" href="index.html">INICIO</a>
+    <a class="navbar-brand" href="remeras.html">REMERAS</a>
+    <a class="navbar-brand" href="Jeans.html">JEANS</a>
+    <a class="navbar-brand" href="Babuchas.html">BABUCHAS</a>
+    <a class="navbar-brand" href="contacto.html">CONTACTO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart" style="color: red;"><i class="fas fa-shopping-cart"></i> <?php echo $totalcantidad; ?></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- END NAVBAR -->
+   
+
+
+<body background="buda4.jpg">	
+  
+    <h1 align = "center">BUSHRA TIENDA DE ROPA</h1>
+
+	<div class="contact_form">
+
+		<div class="formulario">			
+      <h1>Formulario de contacto</h1>
+				
+
+
+					<form action="formu" method="post">				
+
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+						
+										
+													
+														
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								
+						
+					</form>
+		</div>	
+	</div>
+
+</body>
+</html>
